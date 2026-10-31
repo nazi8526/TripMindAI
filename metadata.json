@@ -1,0 +1,6 @@
+{
+  "name": "TripMind AI in Iran",
+  "description": "سامانه هوشمند جامع گردشگری ایران با معرفی ۳۲ مقصد برتر، برنامه‌ریز اختصاصی سفر، نظرات گردشگران و راهنمای سفر",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

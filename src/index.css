@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Persian numeral helper & decorative motifs */
+.persian-pattern {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#d4af37 0.75px, transparent 0.75px), radial-gradient(#0f4c3a 0.75px, #faf7f2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.emerald-gradient {
+  background: linear-gradient(135deg, #09382b 0%, #135d46 50%, #1b7a5d 100%);
+}
+
+.gold-border {
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ebd8;
+}
+::-webkit-scrollbar-thumb {
+  background: #135d46;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #09382b;
+}
